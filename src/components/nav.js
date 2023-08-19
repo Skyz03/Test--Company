@@ -3,7 +3,7 @@ import Logo from "../assets/img/logo.png";
 
 const Nav = () => {
   return (
-    <header className="sticky left-0 top-0 z-20 w-full">
+    <header className="sticky left-0 top-0 z-40 w-full">
       <nav class="border-gray-200 bg-gradient-to-l from-primary to-secondary px-4 py-2.5 dark:bg-gray-800 lg:px-6 ">
         {/* NavBar Brand Start  */}
         <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">

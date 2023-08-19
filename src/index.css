@@ -9,3 +9,10 @@
     font-weight: 500;
   }
 }
+
+.hero-background {
+  background-image: url("./assets/img/heroBG.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: -2rem;
+}

@@ -15,18 +15,18 @@ const Brands = () => {
     <section className="py-8">
       <div className="container mx-auto">
         {/* Heading  */}
-        <div class="text-center lg:text-start lg:px-6">
+        <div class="text-center lg:px-6 lg:text-start">
           <div class="mb-8 text-center lg:mb-16">
-            <h2 class="mb-4 tracking-widest font-bold text-limeGreen uppercase text-xs">
+            <h2 class="mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen">
               Brands
             </h2>
-            <h1 class="font-medium text-xl lg:text-5xl mb-4 lg:mb-8">
+            <h1 class="mb-4 text-xl font-medium lg:mb-8 lg:text-5xl">
               We work with thousands of the world’s leading brands
             </h1>
           </div>
           {/* Heading  */}
 
-          <div class="grid items-center gap-8 lg:gap-8 sm:grid-cols-2 lg:grid-cols-5">
+          <div class="grid items-center gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
             <div>
               <img className="mx-auto" src={MAZ} alt="brands-img" />
             </div>

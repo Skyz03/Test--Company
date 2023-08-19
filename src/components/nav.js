@@ -3,13 +3,13 @@ import Logo from "../assets/img/logo.png";
 
 const Nav = () => {
   return (
-    <header className="sticky w-full z-20 top-0 left-0">
-      <nav class="bg-gradient-to-l from-primary to-secondary border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 ">
+    <header className="sticky left-0 top-0 z-20 w-full">
+      <nav class="border-gray-200 bg-gradient-to-l from-primary to-secondary px-4 py-2.5 dark:bg-gray-800 lg:px-6 ">
         {/* NavBar Brand Start  */}
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
           <a href="#asdasd" class="flex items-center">
             <img src={Logo} class="mr-3 h-6 sm:h-9" alt="Company Logo" />
-            <span class="self-center text-xl font-semibold whitespace-nowrap text-white">
+            <span class="self-center whitespace-nowrap text-xl font-semibold text-white">
               COMPANY
             </span>
           </a>
@@ -19,12 +19,12 @@ const Nav = () => {
           <div class="flex items-center lg:order-2">
             <a
               href="#asd"
-              class="text-primary hidden lg:block bg-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+              class="hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mr-2 hidden rounded-full bg-white px-4 py-2 text-sm font-medium text-primary focus:outline-none focus:ring-4 lg:block lg:px-5 lg:py-2.5"
             >
               Get started
             </a>
             <button
-              class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              class="ml-1 inline-flex items-center rounded-lg p-2 text-sm text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 lg:hidden"
               type="button"
               data-drawer-target="drawer-navigation"
               data-drawer-show="drawer-navigation"
@@ -32,7 +32,7 @@ const Nav = () => {
             >
               <span class="sr-only">Open main menu</span>
               <svg
-                class="w-6 h-6"
+                class="h-6 w-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Nav = () => {
                 ></path>
               </svg>
               <svg
-                class="hidden w-6 h-6"
+                class="hidden h-6 w-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,13 +62,13 @@ const Nav = () => {
           {/* Offcanvas Menu  */}
           <div
             id="drawer-navigation"
-            class="lg:hidden fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-primary w-64 dark:bg-gray-800"
+            class="fixed left-0 top-0 z-40 h-screen w-64 -translate-x-full overflow-y-auto bg-primary p-4 transition-transform dark:bg-gray-800 lg:hidden"
             tabindex="-1"
             aria-labelledby="drawer-navigation-label"
           >
             <h5
               id="drawer-navigation-label"
-              class="text-base font-semibold text-white uppercase dark:text-gray-400"
+              class="text-base font-semibold uppercase text-white dark:text-gray-400"
             >
               Menu
             </h5>
@@ -76,10 +76,10 @@ const Nav = () => {
               type="button"
               data-drawer-hide="drawer-navigation"
               aria-controls="drawer-navigation"
-              class="text-white bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white"
+              class="absolute right-2.5 top-2.5 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-white hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               <svg
-                class="w-3 h-3"
+                class="h-3 w-3"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -95,12 +95,12 @@ const Nav = () => {
               </svg>
               <span class="sr-only">Close menu</span>
             </button>
-            <div class="py-4 overflow-y-auto">
+            <div class="overflow-y-auto py-4">
               <ul class="space-y-2 font-medium">
                 <li>
                   <a
                     href="#"
-                    class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                    class="group flex items-center rounded-lg p-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Nav = () => {
                 <li>
                   <button
                     type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Nav = () => {
                 <li>
                   <button
                     type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ const Nav = () => {
                 <li>
                   <button
                     type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ const Nav = () => {
                 <li>
                   <button
                     type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ const Nav = () => {
                 <li>
                   <button
                     type="button"
-                    class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -195,14 +195,14 @@ const Nav = () => {
 
           {/* Menu List  */}
           <div
-            class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            class="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto"
             id="mobile-menu-2"
           >
-            <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <ul class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
               <li>
                 <a
                   href="#asd"
-                  class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                  class="bg-primary-700 lg:text-primary-700 block rounded py-2 pl-3 pr-4 text-white dark:text-white lg:bg-transparent lg:p-0"
                   aria-current="page"
                 >
                   Home
@@ -211,7 +211,7 @@ const Nav = () => {
               <li>
                 <a
                   href="#zxc"
-                  class="block py-2 pr-4 pl-3 text-white border-gray-100 hover:bg-primary lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Your Benefits
                 </a>
@@ -219,7 +219,7 @@ const Nav = () => {
               <li>
                 <a
                   href="#asd"
-                  class="block py-2 pr-4 pl-3 text-white border-gray-100 hover:bg-primary lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Our process
                 </a>
@@ -227,7 +227,7 @@ const Nav = () => {
               <li>
                 <a
                   href="#asd"
-                  class="block py-2 pr-4 pl-3 text-white border-gray-100 hover:bg-primary lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Our Works
                 </a>
@@ -235,7 +235,7 @@ const Nav = () => {
               <li>
                 <a
                   href="#asd"
-                  class="block py-2 pr-4 pl-3 text-white border-gray-100 hover:bg-primary lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Testimonials
                 </a>
@@ -243,7 +243,7 @@ const Nav = () => {
               <li>
                 <a
                   href="#asd"
-                  class="block py-2 pr-4 pl-3 text-white border-gray-100 hover:bg-primary lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Start a Project
                 </a>

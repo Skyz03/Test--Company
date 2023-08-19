@@ -3,9 +3,9 @@ import FooterLogo from "../assets/img/logo_footer.svg";
 
 const Footer = () => {
   return (
-    <footer class="p-4 bg-black sm:p-6 dark:bg-gray-800">
-      <div class="mx-auto container">
-        <div class="md:flex justify-center items-center md:justify-between md:items-center">
+    <footer class="bg-black p-4 dark:bg-gray-800 sm:p-6">
+      <div class="container mx-auto">
+        <div class="items-center justify-center md:flex md:items-center md:justify-between">
           <div class="mb-6 md:mb-0">
             <a
               href="https://flowbite.com"
@@ -16,43 +16,43 @@ const Footer = () => {
           </div>
           <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-6">
             <div>
-              <a href="https://flowbite.com" class="hover:underline text-white">
+              <a href="https://flowbite.com" class="text-white hover:underline">
                 Home
               </a>
             </div>
             <div>
               <a
                 href="https://github.com/themesberg/flowbite"
-                class="hover:underline text-white"
+                class="text-white hover:underline"
               >
                 Your Benefits
               </a>
             </div>
             <div>
-              <a href="#" class="hover:underline text-white">
+              <a href="#" class="text-white hover:underline">
                 Our process
               </a>
             </div>
             <div>
-              <a href="#" class="hover:underline text-white">
+              <a href="#" class="text-white hover:underline">
                 Our works
               </a>
             </div>
             <div>
-              <a href="#" class="hover:underline text-white">
+              <a href="#" class="text-white hover:underline">
                 Testimonials
               </a>
             </div>
             <div>
-              <a href="#" class="hover:underline text-white">
+              <a href="#" class="text-white hover:underline">
                 Start a project
               </a>
             </div>
           </div>
-          <div class="flex justify-center mt-8 space-x-6 sm:justify-center sm:mt-0">
-            <a href="#" class="text-white hover:text-secondar">
+          <div class="mt-8 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
+            <a href="#" class="hover:text-secondar text-white">
               <svg
-                class="w-5 h-5"
+                class="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
             <a href="#" class="text-white hover:text-secondary">
               <svg
-                class="w-5 h-5"
+                class="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -80,7 +80,7 @@ const Footer = () => {
             </a>
             <a href="#" class="text-white hover:text-secondary">
               <svg
-                class="w-5 h-5"
+                class="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -90,19 +90,19 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr class="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
             © 2022{" "}
             <a href="https://flowbite.com" class="hover:underline">
               Company
             </a>
           </span>
-          <div className="flex justify-center items-center gap-4 ">
-            <a href="#" class="hover:underline text-gray-500">
+          <div className="flex items-center justify-center gap-4">
+            <a href="#" class="text-gray-500 hover:underline">
               Privacy Policy
             </a>
-            <a href="#" class="hover:underline text-gray-500">
+            <a href="#" class="text-gray-500 hover:underline">
               Term of Service
             </a>
           </div>

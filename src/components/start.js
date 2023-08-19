@@ -3,16 +3,16 @@ import StartIMG from "../assets/img/start.svg";
 
 const Start = () => {
   return (
-    <section class="py-10 px-4 lg:py-16 text-center text-white bg-gradient-to-l from-primary to-secondary">
+    <section class="bg-gradient-to-l from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
       <div className="container mx-auto">
         {/* Heading  */}
-        <div className="flex flex-col-reverse justify-center items-center lg:flex-row justify gap-4">
-          <div class="text-center lg:text-start lg:pr-6">
-            <div class="mb-8 text-center lg:text-start lg:mb-16">
-              <h2 class="mb-4 tracking-widest font-bold text-white uppercase text-xs">
+        <div className="flex flex-col-reverse items-center justify-center gap-4 lg:flex-row">
+          <div class="text-center lg:pr-6 lg:text-start">
+            <div class="mb-8 text-center lg:mb-16 lg:text-start">
+              <h2 class="mb-4 text-xs font-bold uppercase tracking-widest text-white">
                 start with us
               </h2>
-              <h1 class="font-medium text-xl lg:text-5xl mb-4 lg:mb-8">
+              <h1 class="mb-4 text-xl font-medium lg:mb-8 lg:text-5xl">
                 Start working faster today
               </h1>
               <p class="text-base lg:text-xl">
@@ -20,7 +20,7 @@ const Start = () => {
                 can help you solve all business problems
               </p>
 
-              <button class="py-4 px-8 mt-8 bg-white text-primary uppercase font-semibold rounded-full shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+              <button class="mt-8 rounded-full bg-white px-8 py-4 font-semibold uppercase text-primary shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
                 Get Started
               </button>
             </div>

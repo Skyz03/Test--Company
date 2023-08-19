@@ -7,7 +7,7 @@ const Start = () => {
       <div className="container mx-auto">
         {/* Heading  */}
         <div className="flex flex-col-reverse justify-center items-center lg:flex-row justify gap-4">
-          <div class="text-center lg:text-start lg:px-6">
+          <div class="text-center lg:text-start lg:pr-6">
             <div class="mb-8 text-center lg:text-start lg:mb-16">
               <h2 class="mb-4 tracking-widest font-bold text-white uppercase text-xs">
                 start with us

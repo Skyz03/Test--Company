@@ -14,5 +14,20 @@
   background-image: url("./assets/img/heroBG.svg");
   background-repeat: no-repeat;
   background-position: top center;
-  margin-top: -2rem;
+  margin-top: -8rem;
+}
+
+@media (min-width:992px) {
+  .feature-background {
+    background-image: url("./assets/img/featureBG.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+}
+
+
+.process-background {
+  background-image: url("./assets/img/processBG.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }

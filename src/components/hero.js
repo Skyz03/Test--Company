@@ -4,7 +4,7 @@ import HeroImg from "../assets/img/heroImg.svg";
 const Hero = () => {
   return (
     <div className="hero-background">
-      <section className=" from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
+      <section className=" from-primary to-secondary px-4 py-10 pt-[10rem] text-center text-white lg:py-0 lg:pt-[14rem]">
         <div className="container mx-auto">
           {/* Heading  */}
           <div className="text-center lg:px-6 lg:text-start">

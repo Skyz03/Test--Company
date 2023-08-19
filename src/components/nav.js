@@ -1,10 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../assets/img/logo.png";
 
 const Nav = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="sticky left-0 top-0 z-40 w-full">
-      <nav class="border-gray-200 px-4 py-2.5 shadow dark:bg-gray-800 lg:px-2.5 ">
+    <header
+      className={`sticky left-0 top-0 z-40 w-full ${
+        isSticky
+          ? "bg-secondary bg-opacity-50 shadow-md backdrop-blur-md backdrop-filter"
+          : "bg-transparent"
+      } transition-all duration-300 ease-in-out`}
+    >
+      <nav class="border-gray-200 px-4 py-2.5 dark:bg-gray-800 lg:px-2.5 ">
         {/* NavBar Brand Start  */}
         <div class="mx-auto flex flex-wrap items-center justify-between">
           <a href="#asdasd" class="flex items-center">

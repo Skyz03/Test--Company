@@ -122,7 +122,7 @@ const Nav = () => {
               <ul class="space-y-2 font-medium">
                 <li>
                   <a
-                    href="#"
+                    href="#home"
                     class="group flex items-center rounded-lg p-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
@@ -136,8 +136,8 @@ const Nav = () => {
                   </a>
                 </li>
                 <li>
-                  <button
-                    type="button"
+                  <a
+                    href="#"
                     class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
@@ -148,11 +148,11 @@ const Nav = () => {
                       <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
                     </svg>
                     <span class="ml-3 text-white">Your Benefits</span>
-                  </button>
+                  </a>
                 </li>
                 <li>
-                  <button
-                    type="button"
+                  <a
+                    href="#process"
                     class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
@@ -163,11 +163,11 @@ const Nav = () => {
                       <path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
                     </svg>
                     <span class="ml-3 text-white">Our Process</span>
-                  </button>
+                  </a>
                 </li>
                 <li>
-                  <button
-                    type="button"
+                  <a
+                    href="#feature"
                     class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
@@ -178,7 +178,7 @@ const Nav = () => {
                       <path d="M176 56V96H336V56c0-4.4-3.6-8-8-8H184c-4.4 0-8 3.6-8 8zM128 96V56c0-30.9 25.1-56 56-56H328c30.9 0 56 25.1 56 56V96v32V480H128V128 96zM64 96H96V480H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64zM448 480H416V96h32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z" />
                     </svg>
                     <span class="ml-3 text-white">Our Works</span>
-                  </button>
+                  </a>
                 </li>
                 <li>
                   <button
@@ -196,8 +196,8 @@ const Nav = () => {
                   </button>
                 </li>
                 <li>
-                  <button
-                    type="button"
+                  <a
+                    href="#start"
                     class="group flex w-full items-center rounded-lg p-2 text-base text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <svg
@@ -208,7 +208,7 @@ const Nav = () => {
                       <path d="M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z" />
                     </svg>
                     <span class="ml-3 text-white">Start a Project</span>
-                  </button>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -224,7 +224,7 @@ const Nav = () => {
             <ul class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
               <li>
                 <a
-                  href="#asd"
+                  href="#home"
                   class="bg-primary-700 lg:text-primary-700 block rounded py-2 pl-3 pr-4 text-white dark:text-white lg:bg-transparent lg:p-0"
                   aria-current="page"
                 >
@@ -233,7 +233,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#zxc"
+                  href="#"
                   class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Your Benefits
@@ -241,7 +241,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#asd"
+                  href="#process"
                   class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Our process
@@ -249,7 +249,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#asd"
+                  href="#feature"
                   class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Our Works
@@ -257,7 +257,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#asd"
+                  href="#"
                   class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Testimonials
@@ -265,7 +265,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="#asd"
+                  href="#start"
                   class="lg:hover:text-primary-700 block border-gray-100 py-2 pl-3 pr-4 text-white hover:bg-primary dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                 >
                   Start a Project

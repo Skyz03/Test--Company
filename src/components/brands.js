@@ -14,7 +14,7 @@ import TAL from "../assets/img/brands/talent.png";
 
 const Brands = () => {
   return (
-    <section className="py-8">
+    <section className="py-8" id="brand">
       <div className="center container mx-auto">
         {/* Heading  */}
         <div class="text-center lg:px-6 lg:text-start">

@@ -3,7 +3,10 @@ import StartIMG from "../assets/img/start.svg";
 
 const Start = () => {
   return (
-    <section class="bg-gradient-to-l from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
+    <section
+      class="bg-gradient-to-l from-primary to-secondary px-4 py-10 text-center text-white lg:py-16"
+      id="start"
+    >
       <div className="container mx-auto">
         {/* Heading  */}
         <div className="flex flex-col-reverse items-center justify-center gap-4 lg:flex-row">

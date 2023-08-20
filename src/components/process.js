@@ -8,7 +8,7 @@ import Folder from "../assets/img/icons/folder.svg";
 
 const Process = () => {
   return (
-    <div className="process-background">
+    <div className="process-background" id="process">
       <section class=" from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
         <div className="container mx-auto">
           {/* Heading  */}

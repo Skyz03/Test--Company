@@ -6,6 +6,7 @@ const Footer = () => {
     <footer
       class="wow fadeInUp bg-black p-4 dark:bg-gray-800 sm:p-6"
       data-wow-delay="0.5s"
+      id="footer"
     >
       <div class="container mx-auto">
         <div class="items-center justify-center md:flex md:items-center md:justify-between">
@@ -19,25 +20,22 @@ const Footer = () => {
           </div>
           <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-6">
             <div>
-              <a href="https://flowbite.com" class="text-white hover:underline">
+              <a href="#home" class="text-white hover:underline">
                 Home
               </a>
             </div>
             <div>
-              <a
-                href="https://github.com/themesberg/flowbite"
-                class="text-white hover:underline"
-              >
+              <a href="#" class="text-white hover:underline">
                 Your Benefits
               </a>
             </div>
             <div>
-              <a href="#" class="text-white hover:underline">
+              <a href="#process" class="text-white hover:underline">
                 Our process
               </a>
             </div>
             <div>
-              <a href="#" class="text-white hover:underline">
+              <a href="#feature" class="text-white hover:underline">
                 Our works
               </a>
             </div>
@@ -47,7 +45,7 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <a href="#" class="text-white hover:underline">
+              <a href="#start" class="text-white hover:underline">
                 Start a project
               </a>
             </div>

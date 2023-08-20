@@ -8,7 +8,7 @@ import User from "../assets/img/icons/user.svg";
 
 const Feature = () => {
   return (
-    <div className="feature-background">
+    <div className="feature-background" id="feature">
       <section className="container mx-auto">
         <div className="mx-auto max-w-screen-xl py-8 text-center lg:px-6 lg:py-16 lg:text-start">
           <div className="mb-8 max-w-screen-sm lg:mb-16">

@@ -9,25 +9,25 @@ import Folder from "../assets/img/icons/folder.svg";
 const Process = () => {
   return (
     <div className="process-background" id="process">
-      <section class=" from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
+      <section className=" from-primary to-secondary px-4 py-10 text-center text-white lg:py-16">
         <div className="container mx-auto">
           {/* Heading  */}
-          <div class="text-center lg:px-6 lg:text-start">
-            <div class="mb-8 text-center lg:mb-16">
+          <div className="text-center lg:px-6 lg:text-start">
+            <div className="mb-8 text-center lg:mb-16">
               <h2
-                class="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-white "
+                className="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-white "
                 data-wow-delay="0.3s"
               >
                 How It Works
               </h2>
               <h1
-                class="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
+                className="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
                 data-wow-delay="0.4s"
               >
                 Our Process
               </h1>
               <p
-                class="wow fadeInLeft text-base lg:text-xl"
+                className="wow fadeInLeft text-base lg:text-xl"
                 data-wow-delay="0.5s"
               >
                 We know the best solution for all of your business ideas and we
@@ -38,7 +38,7 @@ const Process = () => {
 
             {/* Card 1  */}
             <div
-              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              className="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
               data-wow-delay="0.3s"
             >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
@@ -52,7 +52,7 @@ const Process = () => {
                     src={SearchPurple}
                     alt="chart-icon"
                   />
-                  <h3 class="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
+                  <h3 className="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
                     Business Audit
                   </h3>
                   <p className="max-w-3xl text-sm text-black lg:text-base">
@@ -67,7 +67,7 @@ const Process = () => {
 
             {/* Card 2  */}
             <div
-              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              className="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
               data-wow-delay="0.3s"
             >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
@@ -81,7 +81,7 @@ const Process = () => {
                     src={Folder}
                     alt="chart-icon"
                   />
-                  <h3 class="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
+                  <h3 className="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
                     Data Tracking
                   </h3>
                   <p className="max-w-3xl text-sm text-black lg:text-base">
@@ -95,7 +95,7 @@ const Process = () => {
 
             {/* Card 3  */}
             <div
-              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              className="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
               data-wow-delay="0.3s"
             >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
@@ -109,7 +109,7 @@ const Process = () => {
                     src={Document}
                     alt="chart-icon"
                   />
-                  <h3 class="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
+                  <h3 className="mb-3 text-lg font-bold tracking-tight text-gray-900 lg:text-2xl">
                     Results
                   </h3>
                   <p className="max-w-3xl text-sm text-black lg:text-base">

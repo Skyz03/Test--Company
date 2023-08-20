@@ -4,56 +4,56 @@ import FooterLogo from "../assets/img/logo_footer.svg";
 const Footer = () => {
   return (
     <footer
-      class="wow fadeInUp bg-black p-4 dark:bg-gray-800 sm:p-6"
+      className="wow fadeInUp bg-black p-4 dark:bg-gray-800 sm:p-6"
       data-wow-delay="0.5s"
       id="footer"
     >
-      <div class="container mx-auto">
-        <div class="items-center justify-center md:flex md:items-center md:justify-between">
-          <div class="mb-6 md:mb-0">
+      <div className="container mx-auto">
+        <div className="items-center justify-center md:flex md:items-center md:justify-between">
+          <div className="mb-6 md:mb-0">
             <a
               href="https://flowbite.com"
-              class="flex items-center justify-center"
+              className="flex items-center justify-center"
             >
-              <img src={FooterLogo} class="mr-3 h-8" alt="Company Logo" />
+              <img src={FooterLogo} className="mr-3 h-8" alt="Company Logo" />
             </a>
           </div>
-          <div class="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-6">
+          <div className="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-6">
             <div>
-              <a href="#home" class="text-white hover:underline">
+              <a href="#home" className="text-white hover:underline">
                 Home
               </a>
             </div>
             <div>
-              <a href="#" class="text-white hover:underline">
+              <a href="#" className="text-white hover:underline">
                 Your Benefits
               </a>
             </div>
             <div>
-              <a href="#process" class="text-white hover:underline">
+              <a href="#process" className="text-white hover:underline">
                 Our process
               </a>
             </div>
             <div>
-              <a href="#feature" class="text-white hover:underline">
+              <a href="#feature" className="text-white hover:underline">
                 Our works
               </a>
             </div>
             <div>
-              <a href="#" class="text-white hover:underline">
+              <a href="#" className="text-white hover:underline">
                 Testimonials
               </a>
             </div>
             <div>
-              <a href="#start" class="text-white hover:underline">
+              <a href="#start" className="text-white hover:underline">
                 Start a project
               </a>
             </div>
           </div>
-          <div class="mt-8 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
-            <a href="#" class="hover:text-secondar text-white">
+          <div className="mt-8 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
+            <a href="#" className="hover:text-secondar text-white">
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -65,9 +65,9 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="#" class="text-white hover:text-secondary">
+            <a href="#" className="text-white hover:text-secondary">
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -79,9 +79,9 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="#" class="text-white hover:text-secondary">
+            <a href="#" className="text-white hover:text-secondary">
               <svg
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -91,19 +91,19 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
-        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+        <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
             © 2022{" "}
-            <a href="https://flowbite.com" class="hover:underline">
+            <a href="https://flowbite.com" className="hover:underline">
               Company
             </a>
           </span>
           <div className="flex items-center justify-center gap-4">
-            <a href="#" class="text-gray-500 hover:underline">
+            <a href="#" className="text-gray-500 hover:underline">
               Privacy Policy
             </a>
-            <a href="#" class="text-gray-500 hover:underline">
+            <a href="#" className="text-gray-500 hover:underline">
               Term of Service
             </a>
           </div>

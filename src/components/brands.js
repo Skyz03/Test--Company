@@ -17,16 +17,16 @@ const Brands = () => {
     <section className="py-8" id="brand">
       <div className="center container mx-auto">
         {/* Heading  */}
-        <div class="text-center lg:px-6 lg:text-start">
-          <div class="mb-8 text-center lg:mb-16">
+        <div className="text-center lg:px-6 lg:text-start">
+          <div className="mb-8 text-center lg:mb-16">
             <h2
-              class="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen"
+              className="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen"
               data-wow-delay="0.3s"
             >
               Brands
             </h2>
             <h1
-              class="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
+              className="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
               data-wow-delay="0.3s"
             >
               We work with thousands of the world’s leading brands
@@ -34,7 +34,7 @@ const Brands = () => {
           </div>
           {/* Heading  */}
 
-          <div class="grid items-center gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
+          <div className="grid items-center gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
             <div>
               <img
                 className="wow bounceIn mx-auto"
@@ -117,7 +117,7 @@ const Brands = () => {
             </div>
           </div>
 
-          <p class="mt-8 text-center text-sm text-[#424A4D]">
+          <p className="mt-8 text-center text-sm text-[#424A4D]">
             You're going to be in good company. We work with world's leading
             brands.
           </p>

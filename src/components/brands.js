@@ -10,10 +10,17 @@ import QAN from "../assets/img/brands/qantas.png";
 import SMA from "../assets/img/brands/smashing.png";
 import TAL from "../assets/img/brands/talent.png";
 
+// LINKS, AOS, ACCESIBILITY
+
 const Brands = () => {
   return (
     <section className="py-8">
-      <div className="container mx-auto">
+      <div
+        className="wow bounceInDown center container mx-auto"
+        data-wow-duration="2s"
+        data-wow-delay="0.5s"
+        data-wow-offset="100"
+      >
         {/* Heading  */}
         <div class="text-center lg:px-6 lg:text-start">
           <div class="mb-8 text-center lg:mb-16">

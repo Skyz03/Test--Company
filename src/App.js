@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import "flowbite/dist/flowbite";
 import Nav from "./components/nav";
@@ -9,6 +10,13 @@ import Footer from "./components/footer";
 import Hero from "./components/hero";
 
 function App() {
+  React.useEffect(() => {
+    const WOW = require("wowjs");
+    const wow = new WOW.WOW({
+      resetAnimation: true, // Reset animation on each view
+    });
+    wow.init();
+  }, []);
   return (
     <div className="App">
       <Nav />

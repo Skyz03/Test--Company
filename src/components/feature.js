@@ -19,9 +19,12 @@ const Feature = () => {
               We are hero to help you with
             </p>
           </div>
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
+          <div className="wow fadeInUp grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
             {/* Card 1  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow fadeInUp rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.5s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#FFE7DB] p-4 shadow-lg lg:mx-0"
                 src={Chart}

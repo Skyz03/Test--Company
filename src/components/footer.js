@@ -3,7 +3,10 @@ import FooterLogo from "../assets/img/logo_footer.svg";
 
 const Footer = () => {
   return (
-    <footer class="bg-black p-4 dark:bg-gray-800 sm:p-6">
+    <footer
+      class="wow fadeInUp bg-black p-4 dark:bg-gray-800 sm:p-6"
+      data-wow-delay="0.5s"
+    >
       <div class="container mx-auto">
         <div class="items-center justify-center md:flex md:items-center md:justify-between">
           <div class="mb-6 md:mb-0">

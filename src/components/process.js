@@ -14,13 +14,22 @@ const Process = () => {
           {/* Heading  */}
           <div class="text-center lg:px-6 lg:text-start">
             <div class="mb-8 text-center lg:mb-16">
-              <h2 class="mb-4 text-xs font-bold uppercase tracking-widest text-white">
+              <h2
+                class="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-white "
+                data-wow-delay="0.3s"
+              >
                 How It Works
               </h2>
-              <h1 class="mb-4 text-xl font-medium lg:mb-8 lg:text-5xl">
+              <h1
+                class="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
+                data-wow-delay="0.4s"
+              >
                 Our Process
               </h1>
-              <p class="text-base lg:text-xl">
+              <p
+                class="wow fadeInLeft text-base lg:text-xl"
+                data-wow-delay="0.5s"
+              >
                 We know the best solution for all of your business ideas and we
                 can help you solve all business problems
               </p>
@@ -28,7 +37,10 @@ const Process = () => {
             {/* Heading  */}
 
             {/* Card 1  */}
-            <div class="my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left">
+            <div
+              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
                 <div className="mb-4 lg:mb-0">
                   <img src={Process1} alt="chart-pic"></img>
@@ -54,7 +66,10 @@ const Process = () => {
             {/* Card 1  */}
 
             {/* Card 2  */}
-            <div class="my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left">
+            <div
+              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
                 <div className="mb-4 lg:mb-0">
                   <img src={Process2} alt="chart-pic"></img>
@@ -79,7 +94,10 @@ const Process = () => {
             {/* Card 2 */}
 
             {/* Card 3  */}
-            <div class="my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left">
+            <div
+              class="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
                 <div className="mb-4 lg:mb-0">
                   <img src={Process3} alt="chart-pic"></img>

@@ -12,18 +12,24 @@ const Feature = () => {
       <section className="container mx-auto">
         <div className="mx-auto max-w-screen-xl py-8 text-center lg:px-6 lg:py-16 lg:text-start">
           <div className="mb-8 max-w-screen-sm lg:mb-16">
-            <h2 className="mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen dark:text-white">
+            <h2
+              className="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen dark:text-white"
+              data-wow-delay="0.3s"
+            >
               Features
             </h2>
-            <p className="text-xl font-medium lg:max-w-md lg:text-5xl">
+            <p
+              className="wow fadeInLeft text-xl font-medium lg:max-w-md lg:text-5xl"
+              data-wow-delay="0.3s"
+            >
               We are hero to help you with
             </p>
           </div>
           <div className="wow fadeInUp grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
             {/* Card 1  */}
             <div
-              className="wow fadeInUp rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
-              data-wow-delay="0.5s"
+              className="wow zoomIn rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
             >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#FFE7DB] p-4 shadow-lg lg:mx-0"
@@ -42,7 +48,10 @@ const Feature = () => {
             {/* Card 1  */}
 
             {/* Card 2  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow zoomIn rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#E7F2EF] p-4 shadow-lg lg:mx-0"
                 src={Discount}
@@ -60,7 +69,10 @@ const Feature = () => {
             {/* Card 2  */}
 
             {/* Card 3  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow zoomInrounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#FAF3D8] p-4 shadow-lg lg:mx-0"
                 src={User}
@@ -77,7 +89,10 @@ const Feature = () => {
             {/* Card 3  */}
 
             {/* Card 4  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow zoomIn rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#C0F2EF] p-4 shadow-lg lg:mx-0"
                 src={Search}
@@ -95,7 +110,10 @@ const Feature = () => {
             {/* Card 4  */}
 
             {/* Card 5  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow zoomIn rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#EDE7F2] p-4 shadow-lg lg:mx-0"
                 src={Graph}
@@ -113,7 +131,10 @@ const Feature = () => {
             {/* Card 5  */}
 
             {/* Card 6  */}
-            <div className="rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left">
+            <div
+              className="wow zoomIn rounded-2xl bg-white p-5 text-center text-gray-500 shadow-md hover:shadow-xl dark:text-gray-400 lg:p-10 lg:text-left"
+              data-wow-delay="0.3s"
+            >
               <img
                 className="mx-auto mb-4 rounded-2xl bg-[#D8F0FA] p-4 shadow-lg lg:mx-0"
                 src={Bag}

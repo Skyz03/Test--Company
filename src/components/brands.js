@@ -15,19 +15,20 @@ import TAL from "../assets/img/brands/talent.png";
 const Brands = () => {
   return (
     <section className="py-8">
-      <div
-        className="wow bounceInDown center container mx-auto"
-        data-wow-duration="2s"
-        data-wow-delay="0.5s"
-        data-wow-offset="100"
-      >
+      <div className="center container mx-auto">
         {/* Heading  */}
         <div class="text-center lg:px-6 lg:text-start">
           <div class="mb-8 text-center lg:mb-16">
-            <h2 class="mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen">
+            <h2
+              class="wow fadeInLeft mb-4 text-xs font-bold uppercase tracking-widest text-limeGreen"
+              data-wow-delay="0.3s"
+            >
               Brands
             </h2>
-            <h1 class="mb-4 text-xl font-medium lg:mb-8 lg:text-5xl">
+            <h1
+              class="wow fadeInLeft mb-4 text-xl font-medium lg:mb-8 lg:text-5xl"
+              data-wow-delay="0.3s"
+            >
               We work with thousands of the world’s leading brands
             </h1>
           </div>
@@ -35,34 +36,84 @@ const Brands = () => {
 
           <div class="grid items-center gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
             <div>
-              <img className="mx-auto" src={MAZ} alt="brands-img" />
+              <img
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+                src={MAZ}
+                alt="brands-img"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={ATL} alt="brands-img" />
+              <img
+                src={ATL}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={SMA} alt="brands-img" />
+              <img
+                src={SMA}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={QAN} alt="brands-img" />
+              <img
+                src={QAN}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={BUY} alt="brands-img" />
+              <img
+                src={BUY}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={NIT} alt="brands-img" />
+              <img
+                src={NIT}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={CSSM} alt="brands-img" />
+              <img
+                src={CSSM}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={POP} alt="brands-img" />
+              <img
+                src={POP}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={TAL} alt="brands-img" />
+              <img
+                src={TAL}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
             <div>
-              <img className="mx-auto" src={CIVI} alt="brands-img" />
+              <img
+                src={CIVI}
+                alt="brands-img"
+                className="wow bounceIn mx-auto"
+                data-wow-duration="2000"
+              />
             </div>
           </div>
 

@@ -18,12 +18,12 @@ const Feature = () => {
             >
               Features
             </h2>
-            <p
+            <h1
               className="wow fadeInLeft text-xl font-medium lg:max-w-md lg:text-5xl"
               data-wow-delay="0.3s"
             >
               We are hero to help you with
-            </p>
+            </h1>
           </div>
           <div className="wow fadeInUp grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
             {/* Card 1  */}

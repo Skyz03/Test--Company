@@ -38,7 +38,7 @@ const Process = () => {
 
             {/* Card 1  */}
             <div
-              className="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              className="wow fadeInUp dashed-line relative  my-4 rounded-2xl bg-white p-5 text-center shadow-md  hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
               data-wow-delay="0.3s"
             >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">
@@ -66,8 +66,9 @@ const Process = () => {
             {/* Card 1  */}
 
             {/* Card 2  */}
+
             <div
-              className="wow fadeInUp my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
+              className="wow fadeInUp dashed-line relative my-4 rounded-2xl bg-white p-5 text-center shadow-md hover:shadow-xl lg:my-8 lg:p-10 lg:text-left"
               data-wow-delay="0.3s"
             >
               <div className="flex flex-col items-center justify-between gap-x-5 lg:flex-row">

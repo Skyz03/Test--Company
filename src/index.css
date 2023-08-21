@@ -31,3 +31,29 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
+
+
+
+@media (min-width: 0px) {
+  .dashed-line::after {
+    content: "";
+    position: absolute;
+    height: 2rem;
+    left: 50%;
+    bottom: -5%;
+    border-left: 2px dashed white;
+    color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashed-line::after {
+    bottom: -10%;
+  }
+}
+
+@media (min-width: 1536px) {
+  .dashed-line::after {
+    bottom: -8%;
+  }
+}

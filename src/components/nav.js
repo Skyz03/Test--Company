@@ -108,6 +108,7 @@ const Nav = () => {
               data-drawer-hide="drawer-navigation"
               aria-controls="drawer-navigation"
               className="absolute right-2.5 top-2.5 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-white hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+              onClick={toggleMenu}
             >
               <svg
                 className="h-3 w-3"

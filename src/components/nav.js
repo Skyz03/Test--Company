@@ -3,6 +3,11 @@ import Logo from "../assets/img/logo.png";
 
 const Nav = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   const handleScroll = () => {
     if (window.scrollY > 50) {
@@ -52,6 +57,7 @@ const Nav = () => {
               data-drawer-target="drawer-navigation"
               data-drawer-show="drawer-navigation"
               aria-controls="drawer-navigation"
+              onClick={toggleMenu}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -85,7 +91,9 @@ const Nav = () => {
           {/* Offcanvas Menu  */}
           <div
             id="drawer-navigation"
-            className="fixed left-0 top-0 z-40 h-screen w-64 -translate-x-full overflow-y-auto bg-primary p-4 transition-transform dark:bg-gray-800 lg:hidden"
+            className={`${
+              isMenuOpen ? "transform-none" : "-translate-x-full"
+            } fixed left-0 top-0 z-40 h-screen w-64 overflow-y-auto bg-primary p-4 transition-transform dark:bg-gray-800 lg:hidden`}
             tabIndex="-1"
             aria-labelledby="drawer-navigation-label"
           >

@@ -18,7 +18,7 @@ const Footer = () => {
               <img src={FooterLogo} className="mr-3 h-8" alt="Company Logo" />
             </a>
           </div>
-          <div className="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-6">
+          <div className="grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-2 lg:grid-cols-6">
             <div>
               <a href="#home" className="text-white hover:underline">
                 Home

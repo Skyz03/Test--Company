@@ -10,7 +10,49 @@ import QAN from "../assets/img/brands/qantas.png";
 import SMA from "../assets/img/brands/smashing.png";
 import TAL from "../assets/img/brands/talent.png";
 
-// Hovers & 768 footer fix and maybe files fix
+const imgArray = [
+  {
+    id: "1",
+    link: MAZ,
+  },
+  {
+    id: "2",
+    link: ATL,
+  },
+  {
+    id: "3",
+    link: SMA,
+  },
+  {
+    id: "4",
+    link: QAN,
+  },
+  {
+    id: "5",
+    link: BUY,
+  },
+  {
+    id: "6",
+    link: NIT,
+  },
+  {
+    id: "7",
+    link: CSSM,
+  },
+  {
+    id: "8",
+    link: POP,
+  },
+  {
+    id: "9",
+    link: TAL,
+  },
+  {
+    id: "8",
+    link: CIVI,
+  },
+];
+
 const Brands = () => {
   return (
     <section className="py-8" id="brand">
@@ -34,86 +76,16 @@ const Brands = () => {
           {/* Heading  */}
 
           <div className="grid items-center gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
-            <div>
-              <img
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-                src={MAZ}
-                alt="brands-img"
-              />
-            </div>
-            <div>
-              <img
-                src={ATL}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={SMA}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={QAN}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={BUY}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={NIT}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={CSSM}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={POP}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={TAL}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
-            <div>
-              <img
-                src={CIVI}
-                alt="brands-img"
-                className="wow bounceIn mx-auto"
-                data-wow-duration="2000"
-              />
-            </div>
+            {imgArray.map((item) => (
+              <div>
+                <img
+                  src={item.link}
+                  alt="brands-img"
+                  className="wow bounceIn mx-auto"
+                  data-wow-duration="2000"
+                />
+              </div>
+            ))}
           </div>
 
           <p className="mt-8 text-center text-sm text-[#424A4D]">

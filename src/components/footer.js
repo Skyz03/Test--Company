@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
-            <a href="#" className="hover:text-secondar text-white">
+            <a href="#" className="text-white hover:text-secondary">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"

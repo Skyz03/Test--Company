@@ -33,7 +33,7 @@ const Start = () => {
               </p>
 
               <button
-                className="wow fadeInLeft mt-8 rounded-full bg-white px-8 py-4 font-semibold uppercase text-primary shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                className="wow fadeInLeft mt-8 rounded-full border border-white bg-white px-8  py-4 font-semibold uppercase text-primary shadow-md hover:bg-transparent hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
                 data-wow-delay="0.3s"
               >
                 Get Started

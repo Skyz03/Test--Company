@@ -42,7 +42,7 @@ const Nav = () => {
           <div className="flex items-center lg:order-2">
             <a
               href="#asd"
-              className="hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mr-2 hidden rounded-full bg-white px-4 py-2 text-sm font-medium text-primary focus:outline-none focus:ring-4 lg:block lg:px-5 lg:py-2.5"
+              className="focus:ring-primary-300 mr-2 hidden rounded-full border border-white bg-white px-4 py-2 text-sm font-medium text-primary hover:border hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus:ring-4 lg:block lg:px-5 lg:py-2.5"
             >
               Get started
             </a>

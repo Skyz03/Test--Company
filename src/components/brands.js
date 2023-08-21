@@ -10,8 +10,7 @@ import QAN from "../assets/img/brands/qantas.png";
 import SMA from "../assets/img/brands/smashing.png";
 import TAL from "../assets/img/brands/talent.png";
 
-// LINKS, AOS, ACCESIBILITY
-
+// Hovers & 768 footer fix and maybe files fix
 const Brands = () => {
   return (
     <section className="py-8" id="brand">

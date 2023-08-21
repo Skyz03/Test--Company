@@ -23,7 +23,7 @@ const Hero = () => {
               </p>
 
               <button
-                className="wow fadeInLeft hover:bg-primary-800 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mx-auto mt-8 w-36 rounded-full bg-white px-4 py-2 text-sm font-medium text-primary focus:outline-none focus:ring-4 lg:block lg:px-5 lg:py-2.5"
+                className="wow fadeInLeft focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 mx-auto mt-8 w-36 rounded-full border border-white bg-white px-4 py-2 text-sm font-medium text-primary hover:border hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus:ring-4 lg:block lg:px-5 lg:py-2.5"
                 data-wow-delay="0.3s"
               >
                 Get started
